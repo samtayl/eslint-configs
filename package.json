@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "lint:code": "eslint --ext .js .",
+    "lint:code:fix": "yarn lint:code --fix",
+    "lint:other": "prettier --check \"**/*.{json,md,yml}\"",
+    "lint:other:fix": "yarn lint:other --write",
+    "lint:spelling": "cspell \"**\" --config .cspellrc.js",
+    "lint:staged": "lint-staged",
+    "lint:commit": "commitlint",
+    "postinstall": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.2",
+    "@commitlint/config-conventional": "^17.0.2",
+    "@samtayl/eslint-config": "^1.1.0",
+    "cspell": "^6.1.1",
+    "eslint": "^8.17.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.0",
+    "prettier": "^2.6.2"
+  },
+  "packageManager": "yarn@3.2.1"
+}

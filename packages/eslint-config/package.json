@@ -1,0 +1,23 @@
+{
+  "name": "@samtayl/eslint-config",
+  "version": "1.1.0",
+  "type": "commonjs",
+  "description": "My personal ESLint config",
+  "keywords": [
+    "eslint"
+  ],
+  "license": "0BSD",
+  "author": "samtayl",
+  "homepage": "https://github.com/samtayl/eslint-configs/tree/main/packages/eslint-config#readme",
+  "bugs": "https://github.com/samtayl/eslint-configs/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samtayl/eslint-configs.git",
+    "directory": "packages/eslint-config"
+  },
+  "main": "index.js",
+  "exports": "./index.js",
+  "peerDependencies": {
+    "eslint": "^8.17.0"
+  }
+}
