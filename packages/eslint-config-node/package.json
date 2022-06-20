@@ -1,0 +1,24 @@
+{
+  "name": "@samtayl/eslint-config-node",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "My personal ESLint node plugin config",
+  "keywords": [
+    "eslint"
+  ],
+  "license": "0BSD",
+  "author": "samtayl",
+  "homepage": "https://github.com/samtayl/eslint-configs/tree/main/packages/eslint-config-node#readme",
+  "bugs": "https://github.com/samtayl/eslint-configs/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samtayl/eslint-configs.git",
+    "directory": "packages/eslint-config-node"
+  },
+  "main": "index.js",
+  "exports": "./index.js",
+  "peerDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-plugin-node": "^11.1.0"
+  }
+}
