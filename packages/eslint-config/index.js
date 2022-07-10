@@ -1,7 +1,7 @@
 module.exports = {
   rules: {
     'accessor-pairs': 'warn',
-    'array-bracket-newline': 'warn',
+    'array-bracket-newline': ['warn', 'consistent'],
     'array-bracket-spacing': 'warn',
     'array-callback-return': 'warn',
     'array-element-newline': ['warn', 'consistent'],
@@ -40,7 +40,7 @@ module.exports = {
     'func-names': 'warn',
     'func-style': 'warn',
     'function-call-argument-newline': ['warn', 'consistent'],
-    'function-paren-newline': 'warn',
+    'function-paren-newline': ['warn', 'multiline-arguments'],
     'generator-star-spacing': ['warn', 'after'],
     'getter-return': 'warn',
     'grouped-accessor-pairs': ['warn', 'setBeforeGet'],
@@ -280,7 +280,7 @@ module.exports = {
 
     // not allowing non-block statements
     'nonblock-statement-body-position': 'off',
-    'object-curly-newline': ['warn', {multiline: true}],
+    'object-curly-newline': ['warn', {multiline: true, consistent: true}],
     'object-curly-spacing': 'warn',
     'object-property-newline': ['warn', {allowAllPropertiesOnSameLine: true}],
     'object-shorthand': ['warn', 'always', {avoidExplicitReturnArrows: true}],
