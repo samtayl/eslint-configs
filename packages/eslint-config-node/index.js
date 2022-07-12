@@ -6,6 +6,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2019,
   },
+  plugins: ['node'],
   rules: {
     'node/callback-return': 'warn',
     'node/exports-style': 'warn',
