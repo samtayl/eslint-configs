@@ -1,4 +1,11 @@
 module.exports = {
+  env: {
+    node: true,
+    es2019: true,
+  },
+  parserOptions: {
+    ecmaVersion: 2019,
+  },
   rules: {
     'node/callback-return': 'warn',
     'node/exports-style': 'warn',
