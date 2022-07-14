@@ -639,7 +639,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@samtayl/eslint-config-node@^1.0.0, @samtayl/eslint-config-node@workspace:packages/eslint-config-node":
+"@samtayl/eslint-config-node@^1.1.0, @samtayl/eslint-config-node@workspace:packages/eslint-config-node":
   version: 0.0.0-use.local
   resolution: "@samtayl/eslint-config-node@workspace:packages/eslint-config-node"
   peerDependencies:
@@ -648,7 +648,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@samtayl/eslint-config@^1.1.0, @samtayl/eslint-config@workspace:packages/eslint-config":
+"@samtayl/eslint-config@^1.2.0, @samtayl/eslint-config@workspace:packages/eslint-config":
   version: 0.0.0-use.local
   resolution: "@samtayl/eslint-config@workspace:packages/eslint-config"
   peerDependencies:
@@ -2825,8 +2825,8 @@ __metadata:
   dependencies:
     "@commitlint/cli": ^17.0.2
     "@commitlint/config-conventional": ^17.0.2
-    "@samtayl/eslint-config": ^1.1.0
-    "@samtayl/eslint-config-node": ^1.0.0
+    "@samtayl/eslint-config": ^1.2.0
+    "@samtayl/eslint-config-node": ^1.1.0
     cspell: ^6.1.1
     eslint: ^8.17.0
     eslint-plugin-node: ^11.1.0

@@ -1,11 +1,14 @@
 module.exports = {
   language: 'en-GB',
-  dictionaries: ['typescript', 'node', 'npm'],
+  dictionaries: [
+    'typescript',
+    'node',
+    'npm',
+  ],
   words: [
     'backreference',
     'camelcase',
     'commitlint',
-    'cspellrc',
     'iife',
     'isnan',
     'linebreak',
