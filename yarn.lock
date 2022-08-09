@@ -643,7 +643,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@samtayl/eslint-config-node@workspace:packages/eslint-config-node"
   peerDependencies:
-    eslint: ^8.17.0
+    eslint: ">=5.16.0"
     eslint-plugin-node: ^11.1.0
   languageName: unknown
   linkType: soft
@@ -652,7 +652,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@samtayl/eslint-config@workspace:packages/eslint-config"
   peerDependencies:
-    eslint: ^8.17.0
+    eslint: ^8.14.0
   languageName: unknown
   linkType: soft
 
