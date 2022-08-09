@@ -10,7 +10,9 @@ module.exports = {
   rules: {
     'node/callback-return': 'warn',
     'node/exports-style': 'warn',
-    'node/file-extension-in-import': 'warn',
+
+    // superseded by 'import/extensions'
+    'node/file-extension-in-import': 'off',
     'node/global-require': 'warn',
     'node/handle-callback-err': 'warn',
     'node/no-callback-literal': 'warn',
