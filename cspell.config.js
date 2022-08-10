@@ -8,6 +8,7 @@ module.exports = {
   words: [
     'backreference',
     'camelcase',
+    'chunkname',
     'commitlint',
     'iife',
     'isnan',
