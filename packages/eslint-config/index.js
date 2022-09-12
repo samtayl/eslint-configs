@@ -261,7 +261,7 @@ module.exports = {
     'no-unused-expressions': 'warn',
     'no-unused-labels': 'warn',
     'no-unused-private-class-members': 'warn',
-    'no-unused-vars': ['warn', {args: 'all', ignoreRestSiblings: true}],
+    'no-unused-vars': ['warn', {ignoreRestSiblings: true}],
     'no-use-before-define': 'error',
     'no-useless-backreference': 'warn',
     'no-useless-call': 'warn',
