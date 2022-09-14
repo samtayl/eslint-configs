@@ -245,7 +245,7 @@ module.exports = {
     'no-trailing-spaces': 'warn',
     'no-undef': ['error', {typeof: true}],
     'no-undef-init': 'warn',
-    'no-undefined': 'warn',
+    'no-undefined': 'off',
     'no-underscore-dangle': 'off',
     'no-unexpected-multiline': 'warn',
     'no-unmodified-loop-condition': 'warn',
