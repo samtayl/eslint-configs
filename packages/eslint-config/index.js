@@ -262,7 +262,12 @@ module.exports = {
     'no-unused-labels': 'warn',
     'no-unused-private-class-members': 'warn',
     'no-unused-vars': ['warn', {ignoreRestSiblings: true}],
-    'no-use-before-define': 'error',
+
+    // not allowing function declarations, so reporting for functions used
+    // before their declaration is redundant
+    'no-use-before-define': [
+      'error', {classes: false, variables: false, functions: false},
+    ],
     'no-useless-backreference': 'warn',
     'no-useless-call': 'warn',
     'no-useless-catch': 'warn',
